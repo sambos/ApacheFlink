@@ -13,6 +13,7 @@ Also like read info on Apache Flink from data-artisan by Jamie Grier.
 
 ## Apache Flink vs Apache Spark vs Apache Storm
 You can use exising Spark and Storm applications on top of Flink - but you may not achieve streaming benefits with spark.   
+
 Two compatibility options:   
 * With little modifications to the existing code you can redeploy and run the existing code on top of Flink
 * Embed the existing nuts and bolts of your core code and embed it into Flink program
