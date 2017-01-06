@@ -14,5 +14,10 @@ Also like read info on Apache Flink from data-artisan by Jamie Grier.
 ## Apache Beam and Apache Flink
 This is a great combination as Apache Beam provides a unified API for handling batch and streaming which can be run on Flink, Spark and Google DataFlow Service. (Google dataflow is a commercial service for batch and streaming), while Spark has some limitations for time based windowing in case of stream processing. Apache Flink, as it provides both batch and streaming Engine, is an ideal combination to provide a a complete solution.
 
+Apache Beam provides a unified API for both batch and streaming.   
+Apache Flink has a processing engine and also provides two separate API   
+* DataSet API - for batch processing
+* DataStream API - for stream processing 
+
 Apache Beam --> Apache Flink 
 
