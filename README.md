@@ -5,6 +5,7 @@ Apache Flink is a new trend in the stream processing industry, its the next gene
 Main difference:   
 * Micro Batch as in Spark - Store data for few sec and then process
 * Streaming - process as it arrives 
+* Streaming is special case for Spark, whereas Batch is a special case for Flink
 
 Flink also has less configuration options and handles memory management natively and completely elimintates OOM errors. This will be my quick start to try it and provide differences.
 
@@ -23,6 +24,8 @@ Two compatibility options:
 * Embed the existing nuts and bolts of your core code and embed it into Flink program
 
 Spark core is developed in Scala, where as Flink is developed in Java but its other components like Gelly is built in scala. Both support Java and Scala.
+
+Spark's Tungsten project was inspired by Flink.
 
 ## Apache Beam and Apache Flink
 This is a great combination as Apache Beam provides a unified API for handling batch and streaming which can be run on Flink, Spark and Google DataFlow Service. (Google dataflow is a commercial service for batch and streaming), while Spark has some limitations for time based windowing in case of stream processing. Apache Flink, as it provides both batch and streaming Engine, is an ideal combination to provide a a complete solution.
