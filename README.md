@@ -2,6 +2,10 @@
 
 Apache Flink is a new trend in the stream processing industry, its the next generation engine that provides real time streaming as well as batch processing. Unlike Spark, Flink's core engine is based on distributed streaming dataflows (Streaming Engine) where as spark's core engine is a batch engine which is not stream based and hence is not naturally ideal for stream processing. Spark let you do streaming at micro batch level (let you process data every few seconds as batch - not event based) which many consider major reason behind many companies reinvesting in Flink. 
 
+Main difference:   
+* Micro Batch as in Spark - Store data for few sec and then process
+* Streaming - process as it arrives 
+
 Flink also has less configuration options and handles memory management natively and completely elimintates OOM errors. This will be my quick start to try it and provide differences.
 
 [lets get started](http://www.slideshare.net/sbaltagi/stepbystep-introduction-to-apache-flink)   
