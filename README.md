@@ -18,6 +18,8 @@ Two compatibility options:
 * With little modifications to the existing code you can redeploy and run the existing code on top of Flink
 * Embed the existing nuts and bolts of your core code and embed it into Flink program
 
+Spark core is developed in Scala, where as Flink is developed in Java but its other components like Gelly is built in scala. Both support Java and Scala.
+
 ## Apache Beam and Apache Flink
 This is a great combination as Apache Beam provides a unified API for handling batch and streaming which can be run on Flink, Spark and Google DataFlow Service. (Google dataflow is a commercial service for batch and streaming), while Spark has some limitations for time based windowing in case of stream processing. Apache Flink, as it provides both batch and streaming Engine, is an ideal combination to provide a a complete solution.
 
