@@ -1,4 +1,4 @@
-# ApacheFlink
+# Apache Flink
 
 Apache Flink is a new trend in the stream processing industry, its the next generation engine that provides real time streaming as well as batch processing. Unlike Spark, Flink's core engine is based on distributed streaming dataflows (Streaming Engine) where as spark's core engine is a batch engine which is not stream based and hence is not naturally ideal for stream processing. Spark let you do streaming at micro batch level (let you process data every few seconds as batch - not event based) which many consider major reason behind many companies reinvesting in Flink. 
 
