@@ -34,3 +34,6 @@ Apache Flink has a processing engine and also provides two separate API
 
 Apache Beam --> Apache Flink 
 
+## Apache Kafka and Flink
+It has a bidirectional adapter to Kafka, where it can read and write.
+Flink relies on the fault tolerance of Kafka and its a major requirement to have Kafka as of now, but it has other connectors.
