@@ -44,3 +44,4 @@ Flink relies on the fault tolerance of Kafka and its a major requirement to have
 
 # Resources
 [Flink Forward](https://www.youtube.com/channel/UCY8_lgiZLZErZPF47a2hXMA)
+[Case Study at CapitalOne](http://www.slideshare.net/FlinkForward/flink-case-study-capital-one)
