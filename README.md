@@ -43,5 +43,7 @@ Flink relies on the fault tolerance of Kafka and its a major requirement to have
 
 
 # Resources
-[Flink Forward](https://www.youtube.com/channel/UCY8_lgiZLZErZPF47a2hXMA)
-[Case Study at CapitalOne](http://www.slideshare.net/FlinkForward/flink-case-study-capital-one)
+* [Flink Forward](https://www.youtube.com/channel/UCY8_lgiZLZErZPF47a2hXMA)   
+* [Case Study at CapitalOne](http://www.slideshare.net/FlinkForward/flink-case-study-capital-one)
+* [Flink's Iterate vs Delta Iterate Operator for Machine Learning and Graph Processing](https://ci.apache.org/projects/flink/flink-docs-release-0.7/iterations.html)   
+
